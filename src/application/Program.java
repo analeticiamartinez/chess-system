@@ -1,11 +1,14 @@
 package application;
 
+import boardgame.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
-	
 
-		System.out.println("Nova branch");
+		Position pos = new Position(4,8);
+
+		System.out.println(pos);
 
 	}
 
