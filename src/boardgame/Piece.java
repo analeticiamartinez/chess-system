@@ -10,8 +10,11 @@ public class Piece {
 		position = null;
 	}
 
-	protected Position getPosition() {
-		return position;
+	protected Board getBoard() {
+		return board;
 	}
 
-}
+	}
+
+
+	
